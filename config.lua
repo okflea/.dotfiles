@@ -11,10 +11,11 @@ an executable
 -- general
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
+-- lvim.colorscheme = "rose-pine-moon"
+lvim.colorscheme = "dracula"
 -- lvim.colorscheme = "tokyonight-storm"
 -- lvim.colorscheme = "gruvbox"
 -- lvim.colorscheme = "gruvbox-material"
-lvim.colorscheme = "rose-pine-moon"
 -- lvim.colorscheme = "no-clown-fiesta"
 -- lvim.colorscheme = "zenburn"
 -- to disable icons and use a minimalist setup, uncomment the following
@@ -115,7 +116,9 @@ lvim.builtin.treesitter.highlight.enable = true
 -- ---configure a server manually. !!Requires `:LvimCacheReset` to take effect!!
 -- ---see the full default list `:lua print(vim.inspect(lvim.lsp.automatic_configuration.skipped_servers))`
 -- vim.list_extend(lvim.lsp.automatic_configuration.skipped_servers, { "pyright" })
--- local opts = {} -- check the lspconfig documentation for a list of all possible options
+-- check the lspconfig documentation for a list of all possible options
+-- local opts = {}
+vim.opt.relativenumber = true;
 -- require("lvim.lsp.manager").setup("pyright", opts)
 
 -- ---remove a server from the skipped list, e.g. eslint, or emmet_ls. !!Requires `:LvimCacheReset` to take effect!!
@@ -202,14 +205,14 @@ lvim.plugins = {
         -- All these keys will be mapped to their corresponding default scrolling animation
         mappings = { '<C-u>', '<C-d>', '<C-b>', '<C-f>',
           '<C-y>', '<C-e>', 'zt', 'zz', 'zb' },
-        hide_cursor = true, -- Hide cursor while scrolling
-        stop_eof = true, -- Stop at <EOF> when scrolling downwards
+        hide_cursor = true,          -- Hide cursor while scrolling
+        stop_eof = true,             -- Stop at <EOF> when scrolling downwards
         use_local_scrolloff = false, -- Use the local scope of scrolloff instead of the global scope
-        respect_scrolloff = false, -- Stop scrolling when the cursor reaches the scrolloff margin of the file
+        respect_scrolloff = false,   -- Stop scrolling when the cursor reaches the scrolloff margin of the file
         cursor_scrolls_alone = true, -- The cursor will keep on scrolling even if the window cannot scroll further
-        easing_function = nil, -- Default easing function
-        pre_hook = nil, -- Function to run before the scrolling animation starts
-        post_hook = nil, -- Function to run after the scrolling animation ends
+        easing_function = nil,       -- Default easing function
+        pre_hook = nil,              -- Function to run before the scrolling animation starts
+        post_hook = nil,             -- Function to run after the scrolling animation ends
       })
     end
   },
@@ -221,13 +224,33 @@ lvim.plugins = {
       require("todo-comments").setup()
     end,
   },
+  {
+    "norcalli/nvim-colorizer.lua",
+    config = function()
+      require("colorizer").setup({ "css", "scss", "html", "javascript" }, {
+        RGB = true,      -- #RGB hex codes
+        RRGGBB = true,   -- #RRGGBB hex codes
+        RRGGBBAA = true, -- #RRGGBBAA hex codes
+        rgb_fn = true,   -- CSS rgb() and rgba() functions
+        hsl_fn = true,   -- CSS hsl() and hsla() functions
+        css = true,      -- Enable all CSS features: rgb_fn, hsl_fn, names, RGB, RRGGBB
+        css_fn = true,   -- Enable all CSS *functions*: rgb_fn, hsl_fn
+      })
+    end,
+  },
   -- { "ellisonleao/gruvbox.nvim" },
-{"rose-pine/neovim"},
-  { "jnurmine/Zenburn" },
+  { "rose-pine/neovim" },
+  -- { "jnurmine/Zenburn" },
   { "XadillaX/vim-mir2-colorscheme" },
   { "sainnhe/gruvbox-material" },
   { "aktersnurra/no-clown-fiesta.nvim" },
+  { "Mofiqul/dracula.nvim" },
+
 }
+
+
+
+-- Can not be placed into the config method of the plugins.
 
 -- Autocommands (https://neovim.io/doc/user/autocmd.html)
 -- vim.api.nvim_create_autocmd("BufEnter", {
@@ -244,5 +267,11 @@ lvim.plugins = {
 -- })
 -- lvim.transparent_window=true
 vim.opt.guifont = { "FiraCode", ":h8" }
--- java shit
 lvim.transparent_window = true
+-- tailwind
+-- require("lvim.lsp.manager").setup("tailwindcss", {
+--   filetypes = { "html", "vue", "typescriptreact", "javascriptreact" },
+--   root_dir = function(fname)
+--     return vim.loop.cwd()
+--   end,
+-- })
