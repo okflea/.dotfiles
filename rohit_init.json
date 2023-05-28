@@ -1,0 +1,415 @@
+{
+    "basics": {
+        "name": "Rohit Biswas",
+        "email": "rohit.1.biswas.1@gmai.com",
+        "phone": "9038151942",
+        "photo": {
+            "url": "https://cdn.rxresu.me/uploads/440277/466281/1682489856881.jpg",
+            "filters": {
+                "size": 128,
+                "shape": "square",
+                "border": false,
+                "grayscale": false
+            },
+            "visible": true
+        },
+        "summary": "I'm a Full Stack Web developer and an open source & linux enthusiast. I'm looking forward to get a web developer's position at a reputed corporation / startup and building user friendly & responsive interfaces with Reactjs.",
+        "website": "",
+        "headline": "Full Stack Developer",
+        "location": {
+            "city": "Bangalore",
+            "region": "",
+            "address": "",
+            "country": "India",
+            "postalCode": "560102"
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "okflea",
+                "url": "https://github.com/okflea",
+                "id": "f13429fc-7107-4d9d-aaa7-8474cfd42d18"
+            },
+            {
+                "network": "Twitter",
+                "username": "champudu",
+                "url": "https://twitter.com/champudu",
+                "id": "002db3cb-b314-495f-ab61-f6981c8c802a"
+            }
+        ],
+        "birthdate": "1994-07-11"
+    },
+    "sections": {
+        "work": {
+            "id": "work",
+            "name": "Work Experience",
+            "type": "work",
+            "items": [
+                {
+                    "name": "Simpl",
+                    "position": "Collection Executive",
+                    "date": {
+                        "start": "2022-01-01",
+                        "end": "2022-07-01"
+                    },
+                    "url": "https://getsimpl.com/",
+                    "summary": "Worked as a collections Executive and Customer Support for Simpl buy now pay later .",
+                    "id": "794cb9b1-4ac4-4032-ae8e-39ead901b2cb"
+                },
+                {
+                    "name": "IEnergizer",
+                    "position": "Customer Support",
+                    "date": {
+                        "start": "2021-09-01",
+                        "end": "2022-01-01"
+                    },
+                    "url": "https://www.ienergizer.com/",
+                    "summary": "Worked in L1 Chat Support and Moved to L2 Email support for client Rapido",
+                    "id": "6e96c296-106c-494a-b514-70ab21ab18c0"
+                },
+                {
+                    "name": "Acclaris A Willis Towers Watson Company",
+                    "position": " Client Operations General",
+                    "date": {
+                        "start": "2019-10-01",
+                        "end": "2021-04-01"
+                    },
+                    "url": "https://www.wtwco.com/en-IN",
+                    "summary": "Performed adjudication of healthcare claims for Retiree Health Reimbursement Arrangement (RHRA)and Flexible Spending\nArrangement (FSA)",
+                    "id": "4dc6c13e-9f48-475a-926c-22384d66709d"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "awards": {
+            "id": "awards",
+            "name": "Awards",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "skills": {
+            "id": "skills",
+            "name": "Skills",
+            "type": "basic",
+            "items": [
+                {
+                    "name": "React",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "15988b89-29bc-4b36-9e30-c29549c584d0"
+                },
+                {
+                    "name": "Javascript",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "04c2b1d2-877d-41a9-8b94-360d56235b51"
+                },
+                {
+                    "name": "Java",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "97bd1aaf-720b-4e9f-9638-f745956c24be"
+                },
+                {
+                    "name": "Golang",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "a4f4f1ca-8f69-4472-ae25-68eff7fa81d6"
+                },
+                {
+                    "name": "Node",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "7e12c6bb-c5dd-4d8d-aca7-db6da1443826"
+                },
+                {
+                    "name": "MongoDB",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "a22ab000-2cda-4d78-99b9-9acd53479b18"
+                },
+                {
+                    "name": "HTML",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "4acfd291-decf-4650-88f7-d196631a1ad7"
+                },
+                {
+                    "name": "CSS",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "b11547da-78de-4ce2-b1b8-ff29e6b5f77c"
+                },
+                {
+                    "name": "tailwind css",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "9ea01f90-f37a-4289-a653-64ce4680f7e0"
+                },
+                {
+                    "name": "Express",
+                    "level": "",
+                    "levelNum": 0,
+                    "keywords": [],
+                    "id": "a1c98be8-2341-444e-ac24-6335c2c44d28"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "projects": {
+            "id": "projects",
+            "name": "Projects",
+            "type": "basic",
+            "items": [
+                {
+                    "name": "BuyNow!",
+                    "description": "MERN CRUD App",
+                    "date": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "url": "https://odd-plum-duckling-sari.cyclic.app/",
+                    "summary": "A platform for buying and listing second hand cars. OAuth and authentication implemented with clerk js . \nStack : React,tailwind css, vite, HTML ,clerk js ,MongoDB , Express,Node.",
+                    "keywords": [],
+                    "id": "69cc143c-751b-4de1-8bdb-70a31d27e92c"
+                },
+                {
+                    "name": "BookWorm",
+                    "description": "MERN CRUD Store App",
+                    "date": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "url": "https://github.com/okflea/bookstore",
+                    "summary": "A platform for buying books . authentication , cart , Paypal integration.\nStack : React,bootstrap, vite, HTML  ,MongoDB , Express,Node,jwt,etc.",
+                    "keywords": [],
+                    "id": "d160d9ad-86e5-4f7e-a0fe-c7f4947f4175"
+                },
+                {
+                    "name": "Minesweeper",
+                    "description": "Classic minesweeper ",
+                    "date": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "url": "https://okflea-minesweeper.netlify.app/",
+                    "summary": "A fresh look to the classic minesweeper game added to Microsoft in 1990.\n Stack: React,HTML,CSS,Immer js. ",
+                    "keywords": [],
+                    "id": "d9f4cbe6-5a74-4efd-be13-230c48bcc427"
+                },
+                {
+                    "name": "Online Resume",
+                    "description": "Nextjs app",
+                    "date": {
+                        "start": "",
+                        "end": ""
+                    },
+                    "url": "https://online-resume-dun.vercel.app/",
+                    "summary": "Responsive and clean Online Resume made with new features from Nextjs and tailwind css!\n Stack: React,HTML,CSS,tailwind,nextjs. ",
+                    "keywords": [],
+                    "id": "47cd3c86-482e-47c5-a72a-b812af1b88df"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "education": {
+            "id": "education",
+            "name": "Education",
+            "type": "basic",
+            "items": [
+                {
+                    "institution": "Mckv Institute of engineering",
+                    "degree": "B.Tech",
+                    "area": "Automobile",
+                    "score": "6.4",
+                    "date": {
+                        "start": "2014-04-01",
+                        "end": "2018-06-01"
+                    },
+                    "url": "https://www.mckvie.edu.in/",
+                    "summary": "",
+                    "courses": [],
+                    "id": "f1347b11-da41-485c-9ada-af6eb80a85fa"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "interests": {
+            "id": "interests",
+            "name": "Interests",
+            "type": "basic",
+            "items": [
+                {
+                    "name": "Ricing GNU/Linux",
+                    "keywords": [],
+                    "id": "b5d940a3-8842-47ec-8792-b37ba8d0062a"
+                },
+                {
+                    "name": "Neovim",
+                    "keywords": [],
+                    "id": "a327478f-9a4a-4479-9829-94a5b6c821ff"
+                },
+                {
+                    "name": "Custom Roms for Android",
+                    "keywords": [],
+                    "id": "deb79d1a-3ccc-4ff0-b670-dff0e7190e32"
+                },
+                {
+                    "name": "Football",
+                    "keywords": [],
+                    "id": "04a1559b-ef0a-42a1-87bb-8bb9c4326463"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "languages": {
+            "id": "languages",
+            "name": "Languages",
+            "type": "basic",
+            "items": [
+                {
+                    "name": "English",
+                    "level": "Fluent",
+                    "levelNum": 0,
+                    "id": "f2a5b218-1ea1-4791-8281-ee3e1a01fc3e"
+                },
+                {
+                    "name": "Hindi",
+                    "level": "Fluent",
+                    "levelNum": 0,
+                    "id": "e222def3-8c32-460a-854e-c6756068fb45"
+                },
+                {
+                    "name": "Bengali",
+                    "level": "Fluent",
+                    "levelNum": 0,
+                    "id": "5c83a9f6-29ab-425b-b3b5-58fe431740c5"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        },
+        "volunteer": {
+            "id": "volunteer",
+            "name": "Volunteer Experience",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "references": {
+            "id": "references",
+            "name": "References",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "publications": {
+            "id": "publications",
+            "name": "Publications",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "certifications": {
+            "id": "certifications",
+            "name": "Certifications",
+            "type": "basic",
+            "items": [
+                {
+                    "name": "Java(Basic)",
+                    "issuer": "HackerRank",
+                    "date": "2022-09-01",
+                    "url": "",
+                    "summary": "",
+                    "id": "b4ccc174-727d-495f-8b05-5d3a17614ca3"
+                },
+                {
+                    "name": "Javascript(Basic)",
+                    "issuer": "HackerRank",
+                    "date": "2022-09-01",
+                    "url": "",
+                    "summary": "",
+                    "id": "a715a9ba-9fc0-421c-bf81-861a5924c617"
+                },
+                {
+                    "name": "Javascript(Intermediate)",
+                    "issuer": "HackerRank",
+                    "date": "2022-09-01",
+                    "url": "",
+                    "summary": "",
+                    "id": "7bd61f74-bbd6-49bc-88e0-2b86722cf426"
+                }
+            ],
+            "columns": 2,
+            "visible": true
+        }
+    },
+    "metadata": {
+        "css": {
+            "value": "/* Enter custom CSS here */\n\n* {\n    outline: 1px solid #000;\n}",
+            "visible": false
+        },
+        "date": {
+            "format": "MMMM DD, YYYY"
+        },
+        "page": {
+            "format": "A4"
+        },
+        "theme": {
+            "text": "#2f2e2e",
+            "primary": "#4caf50",
+            "background": "#d0d0d0"
+        },
+        "layout": [
+            [
+                [
+                    "work",
+                    "education",
+                    "projects",
+                    "volunteer",
+                    "references"
+                ],
+                [
+                    "skills",
+                    "interests",
+                    "languages",
+                    "awards",
+                    "certifications",
+                    "publications"
+                ]
+            ]
+        ],
+        "locale": "en",
+        "template": "castform",
+        "typography": {
+            "size": {
+                "body": 14,
+                "heading": 28
+            },
+            "family": {
+                "body": "Lato",
+                "heading": "Montserrat"
+            }
+        }
+    },
+    "public": true
+}
