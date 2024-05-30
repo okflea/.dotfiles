@@ -1,0 +1,590 @@
+{
+  "basics": {
+    "name": "Rohit Biswas",
+    "headline": "Full Stack Developer",
+    "email": "rohit.1.biswas.1@gmail.com",
+    "phone": "9038151942",
+    "location": "",
+    "url": {
+      "label": "",
+      "href": ""
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Versatile full-stack developer proficient in Next.js, React, TypeScript, JavaScript, Python, MongoDB, Redis, and AWS services. Skilled in building scalable and high-performance web applications using modern technologies and serverless architectures. Adept at collaborating with cross-functional teams and delivering innovative solutions.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "visible": false,
+      "id": "certifications",
+      "items": [
+        {
+          "id": "s22uz5uiincboq3r3dancte0",
+          "visible": true,
+          "name": "Javascript(Intermediate)",
+          "issuer": "HackerRank",
+          "date": "2022-09-01",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ouu1ctsfxjt0hju6nry7h88c",
+          "visible": true,
+          "name": "Javascript(Basic)",
+          "issuer": "HackerRank",
+          "date": "2022-09-01",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "wlt85jomuiyzvw3denr9dblb",
+          "visible": true,
+          "name": "Java(Basic)",
+          "issuer": "HackerRank",
+          "date": "2022-09-01",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "pxwoaxz61we49lqzqlsqajk7",
+          "visible": true,
+          "institution": "Mckv Institute of engineering",
+          "studyType": "B.Tech",
+          "area": "Automobile",
+          "score": "",
+          "date": "2014-04-01 - 2018-06-01",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": "https://www.mckvie.edu.in/"
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "ftz0pw5todxt0oeablxn0la9",
+          "visible": true,
+          "company": "AlphaBi Solutions Pvt. Lmt",
+          "position": "Full Stack Developer",
+          "location": "",
+          "date": "2023-06-01 - present",
+          "summary": "<ul><li><p>Led the integration of AI technologies into a project and supported the development of admin and management dashboards to enhance operational efficiency.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://www.alphabi.co/"
+          }
+        },
+        {
+          "id": "aagjsjqoy9oywoqk3esnvwfz",
+          "visible": true,
+          "company": "Simpl",
+          "position": "Collection Executive",
+          "location": "",
+          "date": "2022-01-01 - 2022-07-01",
+          "summary": "<ul><li><p>Worked as  Executive for Simpl .</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://getsimpl.com/"
+          }
+        },
+        {
+          "id": "fmvuy39elk4tma9whk2w1xe2",
+          "visible": true,
+          "company": "IEnergizer",
+          "position": "Customer Support",
+          "location": "",
+          "date": "2021-09-01 - 2022-01-01",
+          "summary": "<ul><li><p>Worked as Support Executive for Rapido</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://www.ienergizer.com/"
+          }
+        },
+        {
+          "id": "hg1oq0x7xmpxwo38h5rfqbd8",
+          "visible": true,
+          "company": "Acclaris A Willis Towers Watson Company",
+          "position": " Client Operations General",
+          "location": "",
+          "date": "2019-10-01 - 2021-04-01",
+          "summary": "<ul><li><p>Performed adjudication of healthcare claims</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://www.wtwco.com/en-IN"
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 2,
+      "visible": true,
+      "id": "interests",
+      "items": [
+        {
+          "id": "n8jt7xmo8g386jxpz8fgepck",
+          "visible": true,
+          "name": "Ricing GNU/Linux",
+          "keywords": []
+        },
+        {
+          "id": "q9tzus42f2dev0dra6b2dg9d",
+          "visible": true,
+          "name": "Neovim",
+          "keywords": []
+        },
+        {
+          "id": "nr1j4ig2g2u3ilqlwezntm0f",
+          "visible": true,
+          "name": "Custom firmware for Android",
+          "keywords": []
+        },
+        {
+          "id": "gx4ig4thpyvpu1e5qgun4mmy",
+          "visible": true,
+          "name": "Football fanatic",
+          "keywords": []
+        },
+        {
+          "id": "wyuzhd5lroxw1qcpdig16z5z",
+          "visible": true,
+          "name": "Terminal app enthusiast",
+          "keywords": []
+        },
+        {
+          "id": "hqzmwufl0emh4xa2rlrvp4wb",
+          "visible": true,
+          "name": "origami , swimming ",
+          "keywords": []
+        }
+      ]
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 2,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "pl6y0yvyj1f9xmkxfllc8j67",
+          "visible": true,
+          "name": "English",
+          "description": "Fluent",
+          "level": 0
+        },
+        {
+          "id": "mncofdmjhlf1rqhepzop2brm",
+          "visible": true,
+          "name": "Hindi",
+          "description": "Fluent",
+          "level": 0
+        },
+        {
+          "id": "htwcaey4ucutqv6m24btigkb",
+          "visible": true,
+          "name": "Bengali",
+          "description": "Fluent",
+          "level": 0
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 1,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "rwn9o5ooux2iwhl0vv8lyj0w",
+          "visible": true,
+          "network": "Github",
+          "username": "okflea",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/okflea"
+          }
+        },
+        {
+          "id": "r0jstc7wynknba9qa6qp2k9k",
+          "visible": false,
+          "network": "Twitter",
+          "username": "champudu",
+          "icon": "twitter",
+          "url": {
+            "label": "",
+            "href": "https://twitter.com/champudu"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "rcw458cq9xfyq8uit0wjph7g",
+          "visible": false,
+          "name": "BuyNow!",
+          "description": "MERN CRUD App",
+          "date": " - ",
+          "summary": "A platform for buying and listing second hand cars. OAuth and authentication implemented with clerk js . \nStack : React,tailwind css, vite, HTML ,clerk js ,MongoDB , Express,Node.",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://odd-plum-duckling-sari.cyclic.app/"
+          }
+        },
+        {
+          "id": "eos1ni448b9sp59n9yx0dhph",
+          "visible": false,
+          "name": "BookWorm",
+          "description": "MERN CRUD Store App",
+          "date": " - ",
+          "summary": "A platform for buying books . authentication , cart , Paypal integration.\nStack : React,bootstrap, vite, HTML  ,MongoDB , Express,Node,jwt,etc.",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://github.com/okflea/bookstore"
+          }
+        },
+        {
+          "id": "fjb0zmdqrbfss7y78uiy5xz0",
+          "visible": false,
+          "name": "Minesweeper",
+          "description": "Classic minesweeper ",
+          "date": " - ",
+          "summary": "A fresh look to the classic minesweeper game added to Microsoft in 1990.\n Stack: React,HTML,CSS,Immer js. ",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://okflea-minesweeper.netlify.app/"
+          }
+        },
+        {
+          "id": "h87os36v62w2dq4ffc17ts0d",
+          "visible": false,
+          "name": "Online Resume",
+          "description": "Nextjs app",
+          "date": " - ",
+          "summary": "Responsive and clean Online Resume made with new features from Nextjs and tailwind css!\n Stack: React,HTML,CSS,tailwind,nextjs. ",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://online-resume-dun.vercel.app/"
+          }
+        },
+        {
+          "id": "tngywdztwjfp9ikc389jqpj4",
+          "visible": true,
+          "name": "Bharat Labs",
+          "description": "",
+          "date": "",
+          "summary": "<ul><li><p>Developed a lab management app for multiple franchisees using Next.js, Upstash, Redis, MongoDB with Prisma, TypeScript, and AWS S3 for secure storage.</p></li><li><p>Implemented backend solutions with MongoDB prisma , and Redis, optimizing performance by ~15% and reducing server costs </p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "pcjzfk4hzxt6zw8zlzhjvt0f",
+          "visible": true,
+          "name": "Grimtech",
+          "description": "",
+          "date": "",
+          "summary": "<ul><li><p>Led development of a construction inventory app with Next.js, Prisma, MongoDB, Redis,, AWS (S3 , SES), and UI with Tailwind &amp; Chakra.</p></li><li><p>Collaborated with teams to design and implement secure RESTful APIs, adhering to industry standards.</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "ridsglnigml0qffmbc4s1h38",
+          "visible": true,
+          "name": "Mote Review",
+          "description": "",
+          "date": "",
+          "summary": "<ul><li><p>Utilized Python for backend tasks, integrating OpenAI and Hugging Face Transformers    </p></li><li><p>Employed Pinecone alongside Langchain Leverage generative AI to succinctly summarize motel reviews, providing users with quick yet informative insights</p></li></ul>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 2,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "clpv2xt719g4xi5cpnc1yef3",
+          "visible": true,
+          "name": "Nextjs",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "di3u8s5enl4524bserwvimlr",
+          "visible": true,
+          "name": "React",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "y86cfasvfpnni6f2l71kgri8",
+          "visible": true,
+          "name": "Typescript",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "frx4x2ihlid941bk1rjs8crp",
+          "visible": true,
+          "name": "Javascript",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "hsym86zhb79b3gu91bh7a2a8",
+          "visible": true,
+          "name": "Python",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "fh34uqbwemcsotatzqxtgari",
+          "visible": true,
+          "name": "MongoDB",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "qlzmxapdcvsdb0t4298j5tj6",
+          "visible": true,
+          "name": "Vector DB",
+          "description": "like pinecone",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "iw7ldlc4p1m27w8ns1dok37p",
+          "visible": true,
+          "name": "Serverless Pipelines ",
+          "description": "qstash , kafka , etc",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "k0amby5d0kgx1esy3hnblvuv",
+          "visible": true,
+          "name": "Redis",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "xeomh0irgje25x0bj8e1e0w7",
+          "visible": true,
+          "name": "AWS services ",
+          "description": "S3 , SEC ,etc",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "gyfy2nw9nl2f3ep2buhfmi5k",
+          "visible": true,
+          "name": "Agile",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "eyhu160frtk8d1o0cnvum7tj",
+          "visible": true,
+          "name": "DevOps",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "edhq2f4qvwvwtd961848aqob",
+          "visible": true,
+          "name": "CI/CD",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "q0f3ml0rrksqyan1o9e541z6",
+          "visible": true,
+          "name": "Cloud",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "j2ebv78eimk7q8qlgr0sqa1m",
+          "visible": true,
+          "name": "Java",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "j2jq3b23niyklhxqarwj2zzv",
+          "visible": true,
+          "name": "Golang",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "rxn0uhmi2mtx6y6wwdrjp90x",
+          "visible": true,
+          "name": "RESTFul APIs",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "leafish",
+    "layout": [
+      [
+        [
+          "profiles",
+          "projects",
+          "summary",
+          "volunteer",
+          "education",
+          "languages",
+          "interests",
+          "references"
+        ],
+        [
+          "experience",
+          "certifications",
+          "awards",
+          "skills",
+          "publications"
+        ]
+      ]
+    ],
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 38,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#164A7E"
+    },
+    "typography": {
+      "font": {
+        "family": "Fira Sans Condensed",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 13.35
+      },
+      "lineHeight": 1.35,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}
