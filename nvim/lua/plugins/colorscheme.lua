@@ -1,10 +1,19 @@
 -- -- Default options:
 return {
-  { "rebelot/kanagawa.nvim" },
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      --load color scheme
+      vim.cmd([[colorscheme kanagawa]])
+    end,
+  },
   {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "kanagawa-wave",
+      transparent = true,
     },
   },
 }
